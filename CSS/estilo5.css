@@ -1,0 +1,148 @@
+ {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .cabecera {
+            background-image: url('/api/placeholder/1200/400');
+            background-color: #acba36;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .menu {
+             background-color: #1a5f7a;
+            padding: 15px;
+            text-align: center;
+            position: sticky; 
+    top: 0;
+    z-index: 100;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .contenido {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .seccion {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        .linea-tiempo {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .evento-historia {
+            display: flex;
+            margin: 20px 0;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .evento-historia img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .evento-info {
+            padding: 20px;
+        }
+
+        .fecha-historia {
+            background-color: #e8f4ff;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .formulario {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd; 
+    max-width: 500px; 
+    margin: auto; 
+    font-family: sans-serif;
+}
+
+.campo-formulario {
+    margin-bottom: 15px;
+}
+
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1a5f7a;
+    font-weight: bold;
+}
+
+
+.campo-formulario input,
+.campo-formulario textarea,
+.campo-formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.boton-enviar {
+    background-color: #1a5f7a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.boton-enviar:hover {
+    background-color: #134b60;
+}
+
+
+.boton-enviar:active {
+    transform: scale(0.98); 
+}
+
+        h1 { font-size: 40px; }
+        h2 { color: #1a5f7a; }
+
+         .evento-historia  img, .evento-historia  img {
+            transition: transform 0.3s ease;
+        }
+        .evento-historia  img:hover, .evento-historia img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+    .cabecera {
+        padding: 15px;
+        font-size: 18px;
+    }
+    .menu a {
+        font-size: 14px;
+        margin: 0 5px;
+    }

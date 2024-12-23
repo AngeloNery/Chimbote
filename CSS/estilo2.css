@@ -1,0 +1,148 @@
+{
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .cabecera {
+            background-image: url('/api/placeholder/1200/400');
+            background-color: #acba36;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .menu {
+             background-color: #1a5f7a;
+            padding: 15px;
+            text-align: center;
+            position: sticky; 
+    top: 0;
+    z-index: 100;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .contenido {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .seccion {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        .lugar-turistico {
+            display: flex;
+            margin-bottom: 30px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .lugar-turistico img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .lugar-info {
+            padding: 20px;
+        }
+
+        .datos-practicos {
+            background-color: #f0f7ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .pie {
+            background-color: #1a5f7a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        h1 { font-size: 40px; }
+        h2 { color: #1a5f7a; }
+        
+       
+        .actividades {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .actividad {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .actividad:hover {
+            transform: translateY(-5px);
+        }
+
+        .actividad img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .actividad-info {
+            padding: 15px;
+        }
+
+        .actividad-info h3 {
+            margin: 0 0 10px 0;
+            color: #1a5f7a;
+        }
+
+        .actividad-info p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .precio {
+            font-weight: bold;
+            color: #1a5f7a;
+            margin-top: 10px;
+        }
+
+        .lugar-turistico img, .lugar-turistico img {
+            transition: transform 0.3s ease;
+        }
+        .lugar-turistico img:hover, .lugar-turistico img:hover {
+            transform: scale(1.1);
+        }
+
+        .actividad img, .actividad img {
+            transition: transform 0.3s ease;
+        }
+        .actividad img:hover, .actividad img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+    .cabecera {
+        padding: 15px;
+        font-size: 18px;
+    }
+    .menu a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
